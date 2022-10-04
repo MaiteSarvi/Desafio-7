@@ -16,6 +16,24 @@ main {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             @extend .center;
+
+            .producto {
+                .cartitapie {
+                    a {
+                        margin-top: 15px;
+                        background-color: $Color1;
+                        padding: 7px;
+                        @include medidas (60px,auto);
+                        border-radius: 10px;
+                        color: $Color3;
+                        font-family: $MonoMedium;
+                        font-size: 13px;
+                        text-decoration: none;
+                        transition: .5s, .5s;
+
+                    }
+                }
+            }
         }
             
         .prueba2 {
