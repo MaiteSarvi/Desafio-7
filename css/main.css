@@ -74,30 +74,94 @@ main .imagenes {
     padding: 40px;
     display: grid;
     grid-template-columns: repeat(1, 1fr); }
-    main .imagenes .prueba1 .producto .cartitapie a {
-      margin-top: 15px;
-      background-color: #ce7e57;
-      padding: 7px;
-      width: 60px;
-      height: auto;
-      border-radius: 10px;
-      color: #000000;
-      font-family: "mono", medium;
-      font-size: 13px;
-      text-decoration: none;
-      transition: .5s, .5s; }
+    main .imagenes .prueba1 .producto .cartitapie {
+      display: flex;
+      justify-content: space-around; }
+      main .imagenes .prueba1 .producto .cartitapie a {
+        margin-top: 15px;
+        background-color: #ce7e57;
+        padding: 7px;
+        width: 60px;
+        height: auto;
+        border-radius: 10px;
+        color: #000000;
+        font-family: "mono", medium;
+        font-size: 13px;
+        text-decoration: none;
+        transition: .5s, .5s; }
+        main .imagenes .prueba1 .producto .cartitapie a:hover {
+          background-color: #000000;
+          color: #f5f5dc;
+          transform: scale(1.1); }
   main .imagenes .prueba2 {
     padding: 40px;
     display: grid;
     grid-template-columns: repeat(1, 1fr); }
+    main .imagenes .prueba2 .producto .cartitapie {
+      display: flex;
+      justify-content: space-around; }
+      main .imagenes .prueba2 .producto .cartitapie a {
+        margin-top: 15px;
+        background-color: #ce7e57;
+        padding: 7px;
+        width: 60px;
+        height: auto;
+        border-radius: 10px;
+        color: #000000;
+        font-family: "mono", medium;
+        font-size: 13px;
+        text-decoration: none;
+        transition: .5s, .5s; }
+        main .imagenes .prueba2 .producto .cartitapie a:hover {
+          background-color: #000000;
+          color: #f5f5dc;
+          transform: scale(1.1); }
   main .imagenes .prueba3 {
     padding: 40px;
     display: grid;
     grid-template-columns: repeat(1, 1fr); }
+    main .imagenes .prueba3 .producto .cartitapie {
+      display: flex;
+      justify-content: space-around; }
+      main .imagenes .prueba3 .producto .cartitapie a {
+        margin-top: 15px;
+        background-color: #ce7e57;
+        padding: 7px;
+        width: 60px;
+        height: auto;
+        border-radius: 10px;
+        color: #000000;
+        font-family: "mono", medium;
+        font-size: 13px;
+        text-decoration: none;
+        transition: .5s, .5s; }
+        main .imagenes .prueba3 .producto .cartitapie a:hover {
+          background-color: #000000;
+          color: #f5f5dc;
+          transform: scale(1.1); }
   main .imagenes .prueba4 {
     padding: 40px;
     display: grid;
     grid-template-columns: repeat(1, 1fr); }
+    main .imagenes .prueba4 .producto .cartitapie {
+      display: flex;
+      justify-content: space-around; }
+      main .imagenes .prueba4 .producto .cartitapie a {
+        margin-top: 15px;
+        background-color: #ce7e57;
+        padding: 7px;
+        width: 60px;
+        height: auto;
+        border-radius: 10px;
+        color: #000000;
+        font-family: "mono", medium;
+        font-size: 13px;
+        text-decoration: none;
+        transition: .5s, .5s; }
+        main .imagenes .prueba4 .producto .cartitapie a:hover {
+          background-color: #000000;
+          color: #f5f5dc;
+          transform: scale(1.1); }
   main .imagenes .producto {
     margin-bottom: 100px;
     border-radius: 10px;
@@ -108,24 +172,6 @@ main .imagenes {
     transition: 0.3s; }
     main .imagenes .producto:hover {
       transform: scale(1.1); }
-    main .imagenes .productoa {
-      margin-top: 15px;
-      background-color: #ce7e57;
-      padding: 7px;
-      width: 60px;
-      height: auto;
-      border-radius: 10px;
-      color: #000000;
-      font-family: "mono", medium;
-      font-size: 13px;
-      text-decoration: none;
-      transition: .5s, .5s; }
-      main .imagenes .productoa:hover {
-        background-color: #000000;
-        transform: scale(1.1); }
-  main .imagenes .cartitapie {
-    display: flex;
-    justify-content: space-around; }
 
 main .producto select {
   margin-top: 15px;
