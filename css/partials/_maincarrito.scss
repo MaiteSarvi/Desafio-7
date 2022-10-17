@@ -93,6 +93,9 @@ main {
 
 @media screen and (max-width:670px){
     main{
+        .titulocarrito {
+            font-size: 25px;
+        }
         .tabla {
             display: flex;
             justify-content: center;
@@ -107,6 +110,16 @@ main {
                     font-size: 10px; 
                     margin: 0;   
                 }
+            }
+        }
+    }
+}
+
+@media screen and(max-width:480px) {
+    main {
+        .formulario{
+            input {
+                width: 200px;
             }
         }
     }
