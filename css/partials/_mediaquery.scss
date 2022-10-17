@@ -24,20 +24,7 @@
     }
 }
 
-@media screen and (max-width: 1080px) {
-    .imagenes {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
 
-}
-@media screen and (max-width: 720px) {
-    .imagenes {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
 
    
 

@@ -30,3 +30,44 @@ header {
         }
     }
 }
+
+
+@media screen and (max-width: 690px) {
+    
+    header {
+        .logomenu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .logomenu__menu {
+                padding-bottom: 10px;
+                li {
+                    margin-left: auto;
+                }
+            }
+        }
+            
+    }
+} 
+@media screen and (max-width: 410px){
+    header {
+        .logomenu {
+            &__menu{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                margin: 0;
+                li {
+                    margin-right: 10px;
+                    a{
+                        text-align: center;
+                    }
+                }
+               
+            }
+        }
+    }
+}

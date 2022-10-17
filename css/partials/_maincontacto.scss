@@ -75,8 +75,51 @@ main {
         margin-right: 10px;
         margin-top: 20px;
     }
+}
+ 
+ 
+ 
+ @media screen and(max-width:650px) {
+    main {
+        .suscribite{
+            h3{
+                font-size: 15px;
+            }
+            p{
+                font-size: 10px;
+            }
+        }
+        .contacto{
+            .contacto2{
+                padding: 0;
+                .contacto__ubicacion{
+                    iframe{
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
  }
- 
- 
- 
- 
+
+ @media screen and(max-width:450px) {
+    main {
+        .contacto{
+            width: 100%;
+            .contacto2{
+                h2 {
+                font-size: 15px;   
+                }
+                h4 {
+                font-size: 10px;
+                }
+                padding: 0;
+                .contacto__ubicacion{
+                    iframe{
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+ }
